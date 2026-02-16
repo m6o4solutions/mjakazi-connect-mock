@@ -21,17 +21,17 @@ function renderApp() {
 	if (!app) return;
 
 	app.innerHTML = `
-       <div class="min-h-dvh bg-zinc-50 text-zinc-950">
-          ${headerHtml}
-          ${heroHtml}
-          ${featuresHtml}
-          ${directoryHtml}
-          ${workingsHtml}
-          ${pricingHtml}
-          ${testimonialsHtml}
-          ${blogPreviewHtml}
-          ${ctaHtml}
-          ${footerHtml}
+	      <div class="min-h-dvh bg-bg-subtle text-text-default">
+	      	${headerHtml}
+	         ${heroHtml}
+          	${featuresHtml}
+          	${directoryHtml}
+          	${workingsHtml}
+          	${pricingHtml}
+          	${testimonialsHtml}
+          	${blogPreviewHtml}
+          	${ctaHtml}
+          	${footerHtml}
        </div>
     `;
 
