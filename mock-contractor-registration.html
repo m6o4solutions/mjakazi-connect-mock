@@ -28,13 +28,16 @@
 						},
 						colors: {
 							brand: {
-								900: "#022c22",
-								800: "#064e3b",
-								700: "#047857",
-								600: "#059669",
-								500: "#10b981",
-								100: "#d1fae5",
-								50: "#ecfdf5",
+								900: "#1c2a3a", // Graphite
+								800: "#004d99", // Brand Primary
+								700: "#1565c0",
+								600: "#1976d2", // Brand Primary Light
+								500: "#00c48c", // Brand Accent
+								400: "#4db6ac",
+								300: "#81d4fa",
+								200: "#b3e5fc",
+								100: "#e1f5fe",
+								50: "#f5f7fa",
 							},
 						},
 					},
@@ -42,7 +45,7 @@
 			};
 		</script>
 	</head>
-	<body class="flex min-h-screen flex-col bg-gray-50 font-sans text-gray-800 antialiased">
+	<body class="bg-brand-50 flex min-h-screen flex-col font-sans text-gray-800 antialiased">
 		<!-- Navbar (Simplified for Auth Pages) -->
 		<header
 			class="sticky top-0 z-10 flex h-16 items-center justify-between border-b border-gray-200 bg-white px-4 lg:px-12"
@@ -286,7 +289,7 @@
 				</div>
 			</div>
 
-			<!-- Trust Footer (Mobile Only) -->
+			<!-- Mobile Trust Footer -->
 			<div class="mt-8 px-6 text-center lg:hidden">
 				<p class="mb-3 text-xs font-medium tracking-widest text-gray-400 uppercase">
 					Trusted By Families In
